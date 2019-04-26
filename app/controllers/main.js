@@ -2,7 +2,7 @@ $(document).ready(function(){
     var nguoiDungService = new NguoiDungService();
 
     function moiTaoBranck(){
-        console.log("Hello");
+        console.log("Hello tung");
     }
 
     layDanhNguoiDung();
