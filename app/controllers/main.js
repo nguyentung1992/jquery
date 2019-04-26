@@ -1,6 +1,10 @@
 $(document).ready(function(){
     var nguoiDungService = new NguoiDungService();
 
+    function moiTaoBranck(){
+        console.log("Hello");
+    }
+
     layDanhNguoiDung();
 
     function getInput(title, btnTitle, btnID){
